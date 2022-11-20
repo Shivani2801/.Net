@@ -1,0 +1,26 @@
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\appsettings.Development.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\appsettings.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.staticwebassets.runtime.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.exe
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.deps.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.runtimeconfig.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.dll
+D:\volkswagen training\dotnet\csharp\Online Shopping\bin\Debug\net6.0\Online Shopping.pdb
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.csproj.AssemblyReference.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.GeneratedMSBuildEditorConfig.editorconfig
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.AssemblyInfoInputs.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.AssemblyInfo.cs
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.csproj.CoreCompileInputs.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.MvcApplicationPartsAssemblyInfo.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.RazorAssemblyInfo.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.RazorAssemblyInfo.cs
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\staticwebassets.build.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\staticwebassets.development.json
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\scopedcss\bundle\Online Shopping.styles.css
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\scopedcss\projectbundle\Online Shopping.bundle.scp.css
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.dll
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\refint\Online Shopping.dll
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.pdb
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\Online Shopping.genruntimeconfig.cache
+D:\volkswagen training\dotnet\csharp\Online Shopping\obj\Debug\net6.0\ref\Online Shopping.dll
