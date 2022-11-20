@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+@using System
+
+@inject IViewLocalizer Localizer
+@inject IOptions<RequestLocalizationOptions> locOptions
+@model JobApplication
+
+    @{
+       var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+        var cultureItems= locOptions.Value.SupportedUICultures
+        .Select(c =>new SelectListItem{Value = c.Name,Text=c.DisplayName})
+        .ToList();
+    }
+     
+        <label> Language : </label>
+        <select onchange="SetCulture(this.value)" asp-for="@requestCulture.RequestCulture.UICulture.Name" asp-items="cultureItems"></select>
+
+     <script>
+        function SetCulture(selectedValue)
+        {
+            var url=window.location.href.split('?')[0];
+            var culture = "?culture="+selectedValue+"&ui-culture="+selectedValue;
+            window.location.href= url + culture ;
+            
+                    }
+    </script>
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <p>Job Application Form</p>
+        <b> Please fill the details below</b>
+    </div>
+    <form class="m-1 p-1" asp-action="Index" method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span onformchange="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender"></label>
+            <input asp-for="Gender" type="radio" value="M" class="form-control" />@Localizer["Male"]
+            <input asp-for="Gender" type="radio" value="F" class="form-control" />@Localizer["Female"]
+            <span onformchange="Gender" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" class="form-control" />
+            <span onformchange="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DOB"></label>
+            <input asp-for="DOB" class="form-control" />
+            <span onformchange="DOB" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Experience"></label>
+            <input asp-for="Experience" class="form-control" />
+            <span onformchange="Experience" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TermsAccepted">@Localizer["I accept the terms and conditions"]</label>
+            <input asp-for="TermsAccepted" type="checkbox" class="form-control" />
+            <span onformchange="TermsAccepted" class="text-danger"></span>
+        </div>
+        
+        <button name="formsubmit" value="Button Control" type="submit" class="btn-btn-primary">@Localizer["Submit Application"]</button>
+    
+    </form>
+
+
